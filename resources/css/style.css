@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	font-family: Helvetica;
+	background-color: white;
+	color: white;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: gray;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: bold;
+	color: gray;
+}
+
+h3.white {
+	color: white;
+	background-image: url(../images/the-flatiron-building.png);
+}
+
+p {
+	font-size: 14px;
+	color: gray;
+}
+
+nav a {
+	color: white;
+	font-size: 18px;
+}
+#header {
+	background-image: url(../images/the-flatiron-building.png);
+	opacity: 0,5;
+}
+
+footer p {
+	font-size: 11px;
+	background-color: dimgray;
+}
