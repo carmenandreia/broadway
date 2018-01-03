@@ -39,9 +39,22 @@ nav a {
 	color: white;
 	font-size: 18px;
 }
+
 #header {
 	background-image: url(../images/the-flatiron-building.png);
 	opacity: 0,5;
+}
+
+.first {
+	float: left;
+}
+
+.second {
+	float: left;
+}
+
+.third {
+	float: left;
 }
 
 footer {
@@ -49,4 +62,15 @@ footer {
 	background-color: dimgray;
 	text-align: left;
 	color: white;
+}
+
+.clear {
+	clear: left;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
