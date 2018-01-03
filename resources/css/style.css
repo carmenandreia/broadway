@@ -57,11 +57,17 @@ nav a {
 	float: left;
 }
 
-footer {
+#footer {
 	font-size: 11px;
 	background-color: dimgray;
 	text-align: left;
 	color: white;
+}
+
+#footer a {
+	color: white;
+	float: left;
+	margin-right: 10px;
 }
 
 .clear {
