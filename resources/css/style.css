@@ -35,6 +35,10 @@ p {
 	color: gray;
 }
 
+nav {
+	padding: 20px 0px;
+}
+
 nav a {
 	color: white;
 	font-size: 18px;
@@ -46,16 +50,17 @@ nav a {
 	padding: 20px 0px;
 }
 
-.first {
-	float: left;
+#process {
+	float: right;
+	position: relative;
+	left: 50%; /* or right 50% */
+	text-align: left;
 }
 
-.second {
-	float: left;
-}
-
-.third {
-	float: left;
+#process > .child {
+	position: relative;
+	left: 50%;
+	
 }
 
 #footer {
