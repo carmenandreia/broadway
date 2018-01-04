@@ -94,12 +94,14 @@ nav a {
 }
 
 .float_center {
-  float: right;
-  position: relative;
-  left: -50%; /* or right 50% */
-  text-align: left;
+	float: right;
+	position: relative;
+	left: -50%; /* or right 50% */
+	text-align: left;
 }
+
 .float_center > .child {
-  position: relative;
-  left: 50%;
+	position: relative;
+	left: 50%;
+	float: left;
 }
