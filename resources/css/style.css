@@ -63,6 +63,8 @@ nav a {
 	float: left;
 	position: relative;
 	text-align: center;
+	width: auto;
+	left: -50%;
 }
 
 .child {
@@ -96,14 +98,8 @@ nav a {
 	clear: both;
 }
 
-.float_center {
-	float: right;
-	position: relative;
-	left: -50%; /* or right 50% */
-	text-align: left;
-}
-
 .child {
 	float: left;
 	left: 50%;
+	width: 30%;
 }
