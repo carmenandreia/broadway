@@ -18,12 +18,14 @@ h2 {
 	font-size: 32px;
 	font-weight: bold;
 	color: gray;
+	text-align: center;
 }
 
 h3 {
 	font-size: 23px;
 	font-weight: bold;
 	color: gray;
+	text-align: center;
 }
 
 h3.white {
@@ -102,8 +104,7 @@ nav a {
 	text-align: left;
 }
 
-.float_center > .child {
-	position: relative;
-	left: 50%;
+.child {
 	float: left;
+	left: 50%;
 }
