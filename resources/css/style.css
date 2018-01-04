@@ -73,6 +73,7 @@ nav a {
 .child {
 	float: left;
 	width: 33%;
+	padding: 10px;
 	
 }
 
