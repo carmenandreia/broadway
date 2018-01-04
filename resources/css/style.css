@@ -60,16 +60,15 @@ nav a {
 }
 
 #process {
-	float: right;
+	float: left;
 	position: relative;
 	text-align: center;
-	left: -50%;
 }
 
 .child {
 	position: relative;
-	left: 50%;
-	display: block;
+	/*left: 50%;*/
+	display: inline-block;
 	
 }
 
