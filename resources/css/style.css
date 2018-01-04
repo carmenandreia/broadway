@@ -64,6 +64,11 @@ nav a {
 	align-items: center;
 }
 
+#work {
+	display: flex;
+	align-items: center;
+}
+
 .child {
 	float: left;
 	width: 33%;
