@@ -44,6 +44,11 @@ nav a {
 	font-size: 18px;
 }
 
+.container {
+	width: 500px;
+  	margin: 20px auto 0 auto;
+}
+
 #header {
 	background-image: url(../images/the-flatiron-building.png);
 	opacity: 0,5;
@@ -53,13 +58,14 @@ nav a {
 #process {
 	float: right;
 	position: relative;
-	left: -50%; /* or right 50% */
-	text-align: left;
+	text-align: center;
+	left: -50%;
 }
 
-#process > .child {
+.child {
 	position: relative;
 	left: 50%;
+	display: block;
 	
 }
 
@@ -84,10 +90,16 @@ nav a {
 }
 
 .clear {
-	clear: left;
+	clear: both;
 }
 
-.center {
-    margin: auto;
-    width: 100%;
+.float_center {
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
 }
